@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/indx",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index4/index4",
+    "pages/有害垃圾/有害垃圾",
+    "pages/厨余垃圾/厨余垃圾",
+    "pages/其他垃圾/其他垃圾"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

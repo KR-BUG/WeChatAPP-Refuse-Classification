@@ -1,0 +1,22 @@
+<!--pages/index2/index2.wxml-->
+<view class='imagesize'>
+  <image src="https://7072-project-demo-mtt-1302936790.tcb.qcloud.la/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB.png?sign=cff0497bfb96b5f1212fdfdf1d041d3f&t=1598255767" class='in-image'   >
+  </image>
+<navigator url="/pages/index3/index3">查询垃圾分类</navigator>
+  <view class="finder">
+    <navigator url="#">上海</navigator>
+    <view>      </view>
+    <br/><br/>
+    <navigator url="#">北京</navigator>
+    <view>      </view>
+    <br/><br/>
+    <navigator url="#">广州</navigator>
+    <view>      </view>
+    <br/><br/>
+    <navigator url="#">成都</navigator>
+    <view>      </view>
+    <br/><br/>
+    <navigator url="#">香港</navigator>
+  </view>
+</view>
+

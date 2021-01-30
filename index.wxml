@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+  </view>
+  <view class="intro">
+    <text>垃圾分类，一般是指按一定规定或标准将垃圾分类储存、分类投放和分类搬运，从而转变成公共资源的一系列活动的总称。分类的目的是提高垃圾的资源价值和经济价值，力争物尽其用。从国内外各城市对生活垃圾分类的方法来看，大致都是根据垃圾的种类和处理方式来进行分类的。进行垃圾分类可以使您和他人更加爱护环境。本小程序将以筛选的方式来知晓您希望查询的垃圾的种类。并且给予您好的垃圾分类建议</text>
+  </view>
+  <view>
+    <navigator url="/pages/index2/index2" class="way">进入小程序</navigator>
+  </view>
+</view>

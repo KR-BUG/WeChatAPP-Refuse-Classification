@@ -1,0 +1,37 @@
+/* pages/index2/index2.wxss */
+page{
+  height: 100%;
+}
+
+.imagesize{
+  display: flex;
+  height: 100%;
+  /* justify-content: 10px;
+  align-items: 10px; */
+  background-color: lightgreen;
+}
+
+.imagesize image {
+  width: 350px;
+  height: 350px;
+  float: left;
+}
+
+.finder{
+  background-color: grey;
+  border-style: solid;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-color: grey;
+  width: 75px;
+  height: 300px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.finder navigator{margin-top:35px;}
+.page3{
+  position: relative;
+top: 200px;
+left: 10px;
+}

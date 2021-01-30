@@ -1,0 +1,24 @@
+<text>请在此处筛选您需要查询的垃圾</text>
+<view class="section">
+  <view class="section__title">垃圾的材质</view>
+  <picker bindchange="cai_liao" range="{{cai_liao_array}}">
+    <view class="picker">
+      当前选择：{{dang_qian_cai_liao}}
+    </view>
+  </picker>
+    <view class="section__title">垃圾的行状</view>
+  <picker bindchange="bindxingzhuangPickerChange" range="{{xing_zhuang_array}}">
+    <view class="picker">
+      当前选择：{{dang_qian_xin_zhuang}}
+    </view>
+  </picker>
+    <view class="section__title">垃圾上是否覆盖涂鸦</view>
+  <picker bindchange="bindtuyaPickerChange" range="{{tu_ya_array}}">
+    <view class="picker">
+      当前选择：{{dang_qian_tu_ya}}
+    </view>
+  </picker>
+</view>
+
+<!--<button bindtap="changeItemInArray">submit</button>-->
+<button bind:tap="submit">提交</button>
